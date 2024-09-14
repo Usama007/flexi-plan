@@ -25,7 +25,7 @@ export default function RoundButton({ planName, item }) {
   return (
     <button
       disabled={disabled}
-      className={`border-solid border-2 rounded-full w-12 h-12 md:h-16 md:w-16 lg:w-14 lg:h-14 mb-2 shadow-md text-[10px] md:text-[11px]   ${
+      className={`border-solid border-2 rounded-full w-12 h-12 md:h-16 md:w-16 lg:w-15 lg:h-15 mb-2 shadow-md text-[10px] md:text-[11px]   ${
         disabled
           ? "bg-gray-100 text-gray-600 cursor-not-allowed"
           : cart[planName] === item

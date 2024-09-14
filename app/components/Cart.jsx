@@ -6,7 +6,7 @@ import { convertToText } from "../utils/convertion";
 export default function Cart() {
   const cart = useAppSelector((state) => state.cart);
   return (
-    <div className="flex flex-col gap-4 ">
+    <div className="flex flex-col gap-4 w-full  md:w-1/3 lg:w-1/5 ">
       <button className="block w-full bg-gray-300 text-white py-2 px-4 rounded">
         Buy
       </button>

@@ -19,7 +19,7 @@ export default function Flexiplan() {
   };
 
   return (
-    <div className="flex flex-col gap-4 px-4">
+    <div className="flex flex-col gap-4 w-full md:w-1/2 lg:w-1/3 ">
       <p className="text-4xl font-thin">Flexiplan</p>
       <p className="text-lg   ">
         Make your own plan and enjoy great savings! Only for GP Customers
